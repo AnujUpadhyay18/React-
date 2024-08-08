@@ -1,0 +1,54 @@
+.container{
+   
+    height: 90vh;
+    width: 93vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+}
+.heading{
+    margin-left: 50%;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input_box{
+   width: 50%;
+}
+.input{
+    height: 30px;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 2% 0 10% 10%;
+}
+.button{
+   border-radius: 20px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    margin-left: 3%;
+}
+.show_todo{
+    width: 70vw;
+    
+}
+.edit_delete{
+    display: flex;
+    margin-top: 4%;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+.edit{
+    position: fixed;
+    display: flex;
+    width: 200px;
+    margin-left: 800px;
+    justify-content: space-around;
+}
+.line-through {
+    text-decoration: line-through;
+}
